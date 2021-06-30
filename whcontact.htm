@@ -1,0 +1,128 @@
+<html>
+<title>WHMF Contact Us</title>
+<head>
+    <link href="WHMF.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="WHmobile.css" rel="stylesheet">
+    <link href="WH600.css" rel="stylesheet">
+</head>
+<body>
+    <script>
+        function SHOWmenuNAVBar()
+        {
+        document.getElementById('menuNAVBar').style.display = "block";//show contents of div
+        document.getElementById('menuBar').innerHTML = "<a onclick='HIDEmenuNAVBar()' href='javascript:void(0)'><img style='width:60px;float:right' src='ham1.png'></a>";
+        }
+        function HIDEmenuNAVBar()
+        {
+        document.getElementById('menuNAVBar').style.display = "none";//hide contents of div
+        document.getElementById('menuBar').innerHTML = "<a onclick='SHOWmenuNAVBar()' href='javascript:void(0)'><img style='width:60px;float:right' src='ham1.png'></a>";
+        }
+</script>
+    <div id = "container">
+        <div id = "topbar">Whitney Houston Music Foundation</div>
+        <div id="topmobile">WHMF
+            <div id="menuBar">
+                <a onclick='SHOWmenuNAVBar()' href ='javascript:void(0)'>
+                    <img id = "icon" src="ham1.png"></a>
+            </div>
+            <div id="menuNAVBar">
+                <div id ="menuNAVBarLINKS">
+                    <a href="life.htm">Early Life</a><!--Homepage---->
+                    <a href="career.htm">Career</a>
+                    <a href="awards.htm">Awards</a>
+                    <a href="memorial.htm">In Memorial</a>
+                    <a href="whcontact.htm">Contact Us</a>
+            </div></div>
+        </div>
+        <div id = "nav">
+            <a href="life.htm">Early Life</a><!--Homepage---->
+            <a href="career.htm">Career</a>
+            <a href="awards.htm">Awards</a>
+            <a href="memorial.htm">In Memorial</a>
+            <a href="whcontact.htm">Contact Us</a>
+        </div>
+        <a href="life.htm"><div id ="banner"></div></a>
+        <div id="we">
+            <div id="contact">Contact Our Newsroom</div>
+
+            <h3>Report a Correction or Share Feedback</h3>
+        <p>
+            To report errors regarding our coverage email us at whmf@whmf.com or leave a message at 844-whmf (844-698-6397). To send feedback or story ideas to the newsroom, visit the Reader Center. For customer service questions, please refer to the Customer Care section.
+        </p>
+            <div id="contact">Contact Customer Care</div>
+            
+            <h3>Manage Your Subscription</h3>
+            
+        <p> The best way to manage your WHMF subscription is online, by visiting whmf.com/myaccount.
+            </p>
+            <h3>Manage Your Home Delivery Service</h3>
+            
+        <p>On your account page, you can:
+            <ul>
+            <li>Suspend delivery of your paper
+            <li>Report an issue with your delivery
+            <li>Modify or change your delivery address
+            </ul>
+</p>
+            <h3>General Contact Channels</h3>
+            
+        <p>Ask us a question via chat.</p>
+        <p>Text Customer Care at 855-419-6348.</p>
+        <p>Certain responses from Customer Care will be automated. Your number and information will be used to respond to your text message, process your request, and send you one customer satisfaction survey. To cancel text exchange, reply STOP.
+            If you are in the United States, call us at 800-WHMF (800-698-4637).</p>
+        <p>Our hours are 7 a.m. to 10 p.m. E.T. Monday - Friday, and 7 a.m. to 3 p.m. E.T. Saturday - Sunday.
+            If you are outside of the United States, please see our international contact information.</p>
+            
+        <p>Our mailing address is Whitney Houston Music Foundation, 620 Souffle, Macaroon, MC 10018.</p>
+        </div>
+        <div id="you">
+            <h3>Subscribe to our Newsletter</h3>
+            <form method ="get" action="process.php">
+            <p>First name:
+                <br><input type="text" name="firstname" maxlength="20" required>
+            
+            <p>Last name:
+                <br><input type="text" name="lastname" maxlength="20">
+    
+            <p> Email:
+               <br><input type="text" name="email" maxlength="30" required>
+    
+            <p>Phone number:
+                <br><input type="text" name="phone" maxlength="10">
+            
+            <p>How would you like to receive our Newsletter?
+                <br><input type="radio" name="how" value="email"> Email 
+                <input type="radio" name="how" value="phone"> Phone number
+
+            <p>How often would you like to receive our Newsletter?
+                <br><select name="howoften">
+                    <option value="daily">Daily</option>
+                    <option value="weekly">Weekly</option>
+                    <option value="monthly">Monthly</option>
+                </select>
+            
+            <p>Message:
+                <br><textarea name="message" cols="40" rows="5"></textarea>
+        
+            <p><input style="background-color: #03045E;width:250px;padding:12px;color:white;font-size: 18; border-radius: 5px;border:0;font-family: lora;" 
+                value ="Submit" type="submit">
+            </form></div>
+            <div id="footermobile"> &#169; WHMF 2020|
+                <a href="life.htm">Early Life</a><!--Homepage----> |
+                <a href="career.htm">Career</a> |
+                <a href="awards.htm">Awards</a> |
+                <a href="memorial.htm">In Memorial</a> |
+                <a href="whcontact.htm">Contact Us</a> 
+            </div>
+            <div id="footer"> &#169; WHMF 2020 | Whitney Houston Music Foundation |
+                <a href="life.htm">Early Life</a><!--Homepage----> |
+                <a href="career.htm">Career</a> |
+                <a href="awards.htm">Awards</a> |
+                <a href="memorial.htm">In Memorial</a> |
+                <a href="whcontact.htm">Contact Us</a> 
+            </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,283 @@
+#container
+{
+    width:1000;
+    height:fit-content;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+#topbar
+{
+    height:70;
+    width:1000;
+    background-color: white;
+    font-weight:bold;
+    font-size:40;
+    line-height: 1.7;
+    text-align: center;
+    float: left;
+    color: black;
+    font-family: serif
+}
+#topmobile
+{
+    display: none;
+    height:70;
+    width:1000;
+    background-color: white;
+    font-weight:bold;
+    font-size:40;
+    line-height: 1.7;
+    text-align: center;
+    float: left;
+    color: black;
+    font-family: serif
+}
+#nav
+{
+    height:40;
+    width: 1000;
+    float: left;
+    background-color: #e5e5e5;
+}
+#nav a
+{
+    height:30;
+    width:200;
+    text-decoration: none;
+    float: left;
+    text-align: center;
+    line-height: 2;
+    color: black;
+    font-weight: bold;
+    font-family: arial;
+    font-size: 20px;
+}
+#nav a:hover
+{
+    height:30;
+    width:200;
+    color:#CD5C5C;
+    line-height: 2;
+    float: left;
+}
+#banner
+{
+    background-image: url(
+        https://images4.alphacoders.com/214/thumb-1920-214948.jpg    
+    );
+    height:300;
+    width: 100%;
+    background-size: cover;
+    float: left;
+}
+p
+{
+    margin: 15px;
+}
+#model
+{
+    margin:15px;
+    float:left;
+}
+#sweet
+{
+    margin:15px;
+    float:right;
+}
+#you
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width:996;
+    float:left;
+    background-color: white;
+    font-family: lora,serif;
+    text-align: center;
+    border: grey solid 2px;
+}
+#we
+{
+    width:1000;
+    background-color: white;
+    float:left;
+    margin-top: 15px;
+    font-family: lora,serif;
+    font-size: smaller;
+    height:fit-content
+}
+#footer
+{
+    float:left;
+    background-color: #e5e5e5;
+    text-align: center;
+    width:1000;
+    height:40;
+    font-family: lora,serif; text-decoration: none;
+    font-size: small;
+    line-height: 3;
+}
+#footermobile
+{
+    display:none
+}
+#footer a
+{
+    text-decoration: none; color:red;
+}
+#footer a:hover
+{
+    text-decoration: none;
+    text-decoration: underline;
+}
+#content
+{
+    font-family: lora,sans-serif; font-size: 14px; float: left;
+}
+#content a
+{
+    text-decoration: none;
+    color:blue
+}
+#content a:hover
+{
+    text-decoration: underline;
+}
+#la
+{
+    float:left;
+    margin: 15;
+    width:150
+}
+#death
+{
+    text-align: center;
+    height:40;
+    line-height: 1.6;
+    background-color:#e5e5e5;
+    margin-top:15;
+    font-size: 25;
+    font-family: arial;
+}
+#contact
+{
+    height:40;
+    background-color:#e5e5e5;
+    font-size: 23;
+    text-align: center;
+    font-family: arial;
+    line-height: 1.7;
+}
+#awards1
+{
+    width:500;
+    margin-left: auto;
+    margin-right:auto;
+    font-size: 20px;
+    float: right;
+    height:fit-content;
+    font-family: lora;
+    font-size: 14;
+    height:520;
+}
+#awards1 a
+{
+    text-decoration: none;
+    color:blue
+}
+#awards1 a:hover
+{
+    text-decoration: underline;
+}
+#awards2
+{
+    width:480;
+    font-size: 20px;
+    float: left;
+    overflow: auto;
+    height:100;
+    font-size: 14;
+    font-family: lora;
+    height:500;
+    margin-top:10;
+}
+#awards2 a
+{
+    background-color: white;
+    width:470;
+    height:fit-content;
+    border: 2px solid dimgray;
+    display:block;
+    text-align: center;
+    margin-top: 9px;
+    color:black;
+    text-decoration: none;
+    line-height: 3;
+}
+#awards2 a:hover
+{
+    background-color: white;
+    width:470;
+    height:fit-content;
+    border: 2px solid dimgray;
+    display:block;
+    text-align: center;
+    color:red;
+}
+#fam
+{
+    float:left;
+    margin: 15;
+    width:150
+}
+#young
+{
+    float:left;
+    margin: 15;
+    width:200
+}
+#sing
+{
+    float:right;
+    margin: 15;
+    width:200
+}
+#intro
+{
+    height:40;
+    background-color:#e5e5e5;
+    font-size: 23;
+    text-align: center;
+    font-family: arial;
+    line-height: 1.7;
+    margin-top: 15;
+    width: 1000;
+}
+#icon
+{
+    display: none;
+}
+#menuBar
+{
+    width:200;
+    display: none;
+    height:60;
+    background-color: honeydew;
+    float: right;
+}
+#menuNAVBar
+{
+    display: none;
+}
+#menuNAVBarLINKS
+{
+    display: none;
+}
+#menuNAVBarLINKS a
+{
+    display: none;
+}
+#menuNAVBarLINKS a:hover
+{
+    display: none;
+}
